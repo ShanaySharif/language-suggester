@@ -15,8 +15,8 @@ function handleSelect(event) {
     result = 'Python'
   } else if (summerSelection === 'Yes' && kidsSelection === 'Yes' && orangesSelection === 'Yes') {
     result = 'Go'
-  } else {
-    result = 'Swift';
+  } else if (ummerSelection === 'Yes' && kidsSelection === 'Yes' && orangesSelection === 'Yes') {
+    reult = 'Swift';
   }
 
   document.getElementById("output").innerText = result;
