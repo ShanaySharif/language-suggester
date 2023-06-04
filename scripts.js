@@ -1,22 +1,21 @@
 function handleSelect(event) {
     event.preventDefault();
-    const summerSelection = document.getElementById("summer").value;
-    const kidsSelection = document.getElementById("kids").value;
-    const orangesSelection = document.getElementById("oranges").value;
+    const travelSelection = document.getElementById("travel").value;
+    const socialSelection = document.getElementById("social").value;
+    const mathSelection = document.getElementById("math").value;
+    const dataSelection = document.getElementById("data").value;
+    const readSelection = document.getElementById("read").value;
+
 
     let result;
-  if (summerSelection === "Yes" && kidsSelection === 'No' && orangesSelection === 'No') {
+  if (travelSelection === "Yes" && socialSelection === 'No' && mathSelection === 'No' && dataSelection === 'Yes' && readSelection === 'No') {
     result = 'Ruby';
-  } else if (summerSelection === 'No' && kidsSelection === 'No' && orangesSelection === 'No') {
+  } else if (travelSelection === 'No' && socialSelection === 'No' && mathSelection === 'No' && dataSelection === 'Yes' && readSelection === 'No') {
     result = 'Java'
-  } else if (summerSelection === 'No' && kidsSelection === 'Yes' && orangesSelection === 'No') {
+  } else if (travelSelection === 'No' && socialSelection === 'Yes' && mathSelection === 'No' && dataSelection === 'Yes' && readSelection === 'No') {
     result = 'Javascript';
-  } else if (summerSelection === 'No' && kidsSelection === 'No' && orangesSelection === 'Yes') {
-    result = 'Python'
-  } else if (summerSelection === 'Yes' && kidsSelection === 'Yes' && orangesSelection === 'Yes') {
-    result = 'Go'
-  } else if (ummerSelection === 'Yes' && kidsSelection === 'Yes' && orangesSelection === 'Yes') {
-    reult = 'Swift';
+  } else {
+    result = 'Python';
   }
 
   document.getElementById("output").innerText = result;
