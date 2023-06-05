@@ -18,7 +18,7 @@ In this project I include a minumum of five survey questions and one branch will
 statements.
 
 ## Setup/Installation Requirements
-- Navigate to the to level of the directory 
+- Navigate to the level of the directory 
 - open https://github.com/ShanaySharif/language-suggester.git in your browser!
 
 
