@@ -6,13 +6,11 @@
     height: 100 vh;
     font-family:'Times New Roman', Times, serif
   }
-
-    div {
+  div {
         width: 300px;
         margin: auto; 
         align-items: center;
     }
-
     .output {
         margin-top: 150px;
         margin-left: 50px;

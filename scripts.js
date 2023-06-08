@@ -5,9 +5,7 @@ function handleSelect(event) {
     const mathSelection = document.getElementById("math").value;
     const dataSelection = document.getElementById("data").value;
     const readSelection = document.getElementById("read").value;
-
-
-    let result;
+     let result;
   if (travelSelection === "Yes" && socialSelection === 'No' && mathSelection === 'No' && dataSelection === 'Yes' && readSelection === 'No') {
     result = 'Ruby';
   } else if (travelSelection === 'No' && socialSelection === 'No' && mathSelection === 'No' && dataSelection === 'Yes' && readSelection === 'No') {
@@ -17,10 +15,8 @@ function handleSelect(event) {
   } else {
     result = 'Python';
   }
-
   document.getElementById("output").innerText = result;
   }
-  
   window.addEventListener("load", function() {
     document.getElementById("select-form").addEventListener("submit", handleSelect);
   });
