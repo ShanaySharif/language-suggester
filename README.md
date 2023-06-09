@@ -19,6 +19,7 @@ statements.
 
 ## Setup/Installation Requirements
 - Navigate to the level of the directory 
+- Download webfile 
 - open https://github.com/ShanaySharif/language-suggester.git in your browser!
 
 
@@ -27,4 +28,4 @@ There are currently no known bugs.
 
 ## License
 Copyright (c) _2023_ _Shankaron Mohamed_
-![image](https://github.com/ShanaySharif/language-suggester/assets/134244781/e6c88d2e-d9d3-409a-b136-fabf2b87fe21)
+
