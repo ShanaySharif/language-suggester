@@ -16,8 +16,8 @@ In this project I include a minumum of five survey questions and one branch will
 statements.
 
 #### Setup/Installation Requirements
--open https://github.com/ShanaySharif/language-suggester.git in your browser!
--Go to repository 
+- open https://github.com/ShanaySharif/language-suggester.git in your browser!
+- Go to repository 
 - Download zipfolder 
 - open up Visual Studio Code
 - open folder with the repository that was downloaded
